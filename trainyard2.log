@@ -1785,3 +1785,741 @@ Level flags = 0
 Total triangle count: 1837
 Writing d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
 3 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\left 4 dead 2\left4dead2\materials
+Loading D:\Games\game-dev\Source Modding\Maps\source_l4d_trainyard2\trainyard2.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-1160.83 2544.00 1.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (10240.0 3584.0 312.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9728.0 4096.0 312.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8704.0 3072.0 336.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8704.0 3072.0 -28.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8704.0 4096.0 312.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 2560.0 336.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 2560.0 -28.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (10240.0 2560.0 312.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (33956 bytes)
+Cannot build Physics2 data
+                                                             -----------
+DataLinker total stream size                                     0.0 KiB
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 71 texinfos to 38
+Reduced 9 texdatas to 8 (252 bytes to 198)
+Writing D:\Games\game-dev\Source Modding\Maps\source_l4d_trainyard2\trainyard2.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+max farz in all env_fog_controller entities: -1.000000 (used for radial vis)
+reading d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.prt
+LoadPortals: couldn't read d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.prt
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\left 4 dead 2\left4dead2\materials
+Loading D:\Games\game-dev\Source Modding\Maps\source_l4d_trainyard2\trainyard2.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-1160.83 2544.00 1.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (10240.0 3584.0 312.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9728.0 4096.0 312.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8704.0 3072.0 336.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8704.0 3072.0 -28.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8704.0 4096.0 312.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 2560.0 336.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 2560.0 -28.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (10240.0 2560.0 312.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (33956 bytes)
+Cannot build Physics2 data
+                                                             -----------
+DataLinker total stream size                                     0.0 KiB
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 71 texinfos to 38
+Reduced 9 texdatas to 8 (252 bytes to 198)
+Writing D:\Games\game-dev\Source Modding\Maps\source_l4d_trainyard2\trainyard2.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+max farz in all env_fog_controller entities: -1.000000 (used for radial vis)
+reading d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.prt
+LoadPortals: couldn't read d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.prt
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\left 4 dead 2\left4dead2\materials
+Loading D:\Games\game-dev\Source Modding\Maps\source_l4d_trainyard2\trainyard2.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Games\game-dev\Source Modding\Maps\source_l4d_trainyard2\trainyard2.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (38745 bytes)
+Cannot build Physics2 data
+                                                             -----------
+DataLinker total stream size                                     0.0 KiB
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 100 texinfos to 38
+Reduced 10 texdatas to 9 (270 bytes to 216)
+Writing D:\Games\game-dev\Source Modding\Maps\source_l4d_trainyard2\trainyard2.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+max farz in all env_fog_controller entities: -1.000000 (used for radial vis)
+reading d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.prt
+ 105 portalclusters
+ 242 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1 visible clusters (0.00%)
+Total clusters visible: 7376
+Average clusters visible: 70
+Building PAS...
+Average clusters audible: 104
+visdatasize:3778  compressed from 3360
+writing d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+753 faces
+807847 square feet [116330016.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+753 patches before subdivision
+44399 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3001898, max 419
+transfer lists:  22.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5805, 3790, 3449)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(546, 277, 183)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(51, 22, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(6, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0122 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                113/8192         1356/98304    ( 1.4%) 
+brushsides             682/65536        5456/524288   ( 1.0%) 
+planes                 198/65536        3960/1310720  ( 0.3%) 
+vertexes              1194/65536       14328/786432   ( 1.8%) 
+nodes                  288/65536        9216/2097152  ( 0.4%) 
+texinfos                38/12288        2736/884736   ( 0.3%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  753/65536       42168/3670016  ( 1.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              181/65536       10136/3670016  ( 0.3%) 
+leaves                 290/65536        9280/2097152  ( 0.4%) 
+leaffaces              859/65536        1718/131072   ( 1.3%) 
+leafbrushes            272/65536         544/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4233/512000      16932/2048000  ( 0.8%) 
+edges                 2450/256000       9800/1024000  ( 1.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             94/32768         940/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1386/65536        2772/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     2907172/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3778/16777216 ( 0.0%) 
+entdata               [variable]        1423/393216   ( 0.4%) 
+LDR ambient table      290/65536        1160/262144   ( 0.4%) 
+HDR ambient table      290/65536        1160/262144   ( 0.4%) 
+LDR leaf ambient       835/65536       23380/1835008  ( 1.3%) 
+HDR leaf ambient       290/65536        8120/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+Prop Hull Verts          0/0               0/0        ( 0.0%) 
+Prop Hull Blob           0/0               0/0        ( 0.0%) 
+Prop Hull Lists          0/0               0/0        ( 0.0%) 
+Prop Hulls               0/0               0/0        ( 0.0%) 
+Prop Hull trilist        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      173759/0        ( 0.0%) 
+physics               [variable]       38745/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2003
+Writing d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+3 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\left 4 dead 2\left4dead2\materials
+Loading D:\Games\game-dev\Source Modding\Maps\source_l4d_trainyard2\trainyard2.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Games\game-dev\Source Modding\Maps\source_l4d_trainyard2\trainyard2.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (39541 bytes)
+Cannot build Physics2 data
+                                                             -----------
+DataLinker total stream size                                     0.0 KiB
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 108 texinfos to 42
+Reduced 11 texdatas to 10 (298 bytes to 244)
+Writing D:\Games\game-dev\Source Modding\Maps\source_l4d_trainyard2\trainyard2.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+max farz in all env_fog_controller entities: -1.000000 (used for radial vis)
+reading d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.prt
+ 109 portalclusters
+ 253 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 8 visible clusters (0.00%)
+Total clusters visible: 7923
+Average clusters visible: 72
+Building PAS...
+Average clusters audible: 108
+visdatasize:3946  compressed from 3488
+writing d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+767 faces
+807831 square feet [116327768.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+767 patches before subdivision
+44355 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3008994, max 433
+transfer lists:  23.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6035, 3989, 3612)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(566, 291, 192)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(54, 24, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(6, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0119 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                115/8192         1380/98304    ( 1.4%) 
+brushsides             696/65536        5568/524288   ( 1.1%) 
+planes                 208/65536        4160/1310720  ( 0.3%) 
+vertexes              1219/65536       14628/786432   ( 1.9%) 
+nodes                  302/65536        9664/2097152  ( 0.5%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  767/65536       42952/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              194/65536       10864/3670016  ( 0.3%) 
+leaves                 304/65536        9728/2097152  ( 0.5%) 
+leaffaces              877/65536        1754/131072   ( 1.3%) 
+leafbrushes            287/65536         574/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4355/512000      17420/2048000  ( 0.9%) 
+edges                 2524/256000      10096/1024000  ( 1.0%) 
+LDR worldlights          3/8192          300/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1428/65536        2856/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     2907696/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3946/16777216 ( 0.0%) 
+entdata               [variable]        1894/393216   ( 0.5%) 
+LDR ambient table      304/65536        1216/262144   ( 0.5%) 
+HDR ambient table      304/65536        1216/262144   ( 0.5%) 
+LDR leaf ambient       842/65536       23576/1835008  ( 1.3%) 
+HDR leaf ambient       304/65536        8512/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+Prop Hull Verts          0/0               0/0        ( 0.0%) 
+Prop Hull Blob           0/0               0/0        ( 0.0%) 
+Prop Hull Lists          0/0               0/0        ( 0.0%) 
+Prop Hulls               0/0               0/0        ( 0.0%) 
+Prop Hull trilist        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      173759/0        ( 0.0%) 
+physics               [variable]       39541/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2045
+Writing d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+3 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\left 4 dead 2\left4dead2\materials
+Loading D:\Games\game-dev\Source Modding\Maps\source_l4d_trainyard2\trainyard2.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Games\game-dev\Source Modding\Maps\source_l4d_trainyard2\trainyard2.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (39541 bytes)
+Cannot build Physics2 data
+                                                             -----------
+DataLinker total stream size                                     0.0 KiB
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 108 texinfos to 42
+Reduced 11 texdatas to 10 (298 bytes to 244)
+Writing D:\Games\game-dev\Source Modding\Maps\source_l4d_trainyard2\trainyard2.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+max farz in all env_fog_controller entities: -1.000000 (used for radial vis)
+reading d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.prt
+ 109 portalclusters
+ 253 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 8 visible clusters (0.00%)
+Total clusters visible: 7923
+Average clusters visible: 72
+Building PAS...
+Average clusters audible: 108
+visdatasize:3946  compressed from 3488
+writing d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+767 faces
+807831 square feet [116327768.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+767 patches before subdivision
+44355 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3008994, max 433
+transfer lists:  23.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6047, 4006, 3629)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(565, 291, 191)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(54, 24, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(6, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0119 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                115/8192         1380/98304    ( 1.4%) 
+brushsides             696/65536        5568/524288   ( 1.1%) 
+planes                 208/65536        4160/1310720  ( 0.3%) 
+vertexes              1219/65536       14628/786432   ( 1.9%) 
+nodes                  302/65536        9664/2097152  ( 0.5%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  767/65536       42952/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              194/65536       10864/3670016  ( 0.3%) 
+leaves                 304/65536        9728/2097152  ( 0.5%) 
+leaffaces              877/65536        1754/131072   ( 1.3%) 
+leafbrushes            287/65536         574/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4355/512000      17420/2048000  ( 0.9%) 
+edges                 2524/256000      10096/1024000  ( 1.0%) 
+LDR worldlights          3/8192          300/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1428/65536        2856/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     2907696/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3946/16777216 ( 0.0%) 
+entdata               [variable]        1898/393216   ( 0.5%) 
+LDR ambient table      304/65536        1216/262144   ( 0.5%) 
+HDR ambient table      304/65536        1216/262144   ( 0.5%) 
+LDR leaf ambient       841/65536       23548/1835008  ( 1.3%) 
+HDR leaf ambient       304/65536        8512/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+Prop Hull Verts          0/0               0/0        ( 0.0%) 
+Prop Hull Blob           0/0               0/0        ( 0.0%) 
+Prop Hull Lists          0/0               0/0        ( 0.0%) 
+Prop Hulls               0/0               0/0        ( 0.0%) 
+Prop Hull trilist        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      173759/0        ( 0.0%) 
+physics               [variable]       39541/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2045
+Writing d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+3 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\left 4 dead 2\left4dead2\materials
+Loading D:\Games\game-dev\Source Modding\Maps\source_l4d_trainyard2\trainyard2.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Games\game-dev\Source Modding\Maps\source_l4d_trainyard2\trainyard2.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (39509 bytes)
+Cannot build Physics2 data
+                                                             -----------
+DataLinker total stream size                                     0.0 KiB
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 112 texinfos to 43
+Reduced 11 texdatas to 10 (298 bytes to 244)
+Writing D:\Games\game-dev\Source Modding\Maps\source_l4d_trainyard2\trainyard2.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+max farz in all env_fog_controller entities: -1.000000 (used for radial vis)
+reading d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.prt
+ 116 portalclusters
+ 277 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 8 visible clusters (0.00%)
+Total clusters visible: 8272
+Average clusters visible: 71
+Building PAS...
+Average clusters audible: 115
+visdatasize:4394  compressed from 3712
+writing d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+767 faces
+807832 square feet [116327840.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+767 patches before subdivision
+44347 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3008217, max 429
+transfer lists:  23.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6035, 3996, 3620)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(565, 290, 191)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(54, 24, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(6, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0121 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                115/8192         1380/98304    ( 1.4%) 
+brushsides             695/65536        5560/524288   ( 1.1%) 
+planes                 206/65536        4120/1310720  ( 0.3%) 
+vertexes              1221/65536       14652/786432   ( 1.9%) 
+nodes                  308/65536        9856/2097152  ( 0.5%) 
+texinfos                43/12288        3096/884736   ( 0.3%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  767/65536       42952/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              194/65536       10864/3670016  ( 0.3%) 
+leaves                 310/65536        9920/2097152  ( 0.5%) 
+leaffaces              877/65536        1754/131072   ( 1.3%) 
+leafbrushes            285/65536         570/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4355/512000      17420/2048000  ( 0.9%) 
+edges                 2527/256000      10108/1024000  ( 1.0%) 
+LDR worldlights          3/8192          300/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1428/65536        2856/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     2907664/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        4394/16777216 ( 0.0%) 
+entdata               [variable]        1898/393216   ( 0.5%) 
+LDR ambient table      310/65536        1240/262144   ( 0.5%) 
+HDR ambient table      310/65536        1240/262144   ( 0.5%) 
+LDR leaf ambient       848/65536       23744/1835008  ( 1.3%) 
+HDR leaf ambient       310/65536        8680/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+Prop Hull Verts          0/0               0/0        ( 0.0%) 
+Prop Hull Blob           0/0               0/0        ( 0.0%) 
+Prop Hull Lists          0/0               0/0        ( 0.0%) 
+Prop Hulls               0/0               0/0        ( 0.0%) 
+Prop Hull trilist        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      173759/0        ( 0.0%) 
+physics               [variable]       39509/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2045
+Writing d:\games\game-dev\source modding\maps\source_l4d_trainyard2\trainyard2.bsp
+3 seconds elapsed
