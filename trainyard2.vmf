@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7554"
-	"mapversion" "24"
+	"mapversion" "27"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -22,12 +22,6 @@ visgroups
 	}
 	visgroup
 	{
-		"name" "Global light"
-		"visgroupid" "10"
-		"color" "97 198 143"
-	}
-	visgroup
-	{
 		"name" "Outer walls"
 		"visgroupid" "11"
 		"color" "107 168 249"
@@ -44,7 +38,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "24"
+	"mapversion" "27"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -6303,9 +6297,9 @@ world
 		side
 		{
 			"id" "1570"
-			"plane" "(-508.323 96 256) (-4.57764e-005 96 8.61644) (-4.57764e-005 8 8.61644)"
+			"plane" "(-509.017 96 256) (-96 96 -22.3068) (-96 8 -22.3068)"
 			"material" "CONCRETE/BLEND_BLACKTOP_COBB_01"
-			"uaxis" "[0.899171 0 -0.437596 58.6154] 0.25"
+			"uaxis" "[0.829292 0 -0.558814 58.6154] 0.25"
 			"vaxis" "[0 -1 0 52] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -6314,9 +6308,9 @@ world
 		side
 		{
 			"id" "1569"
-			"plane" "(-512 8 247.384) (-3.67712 8 2.47955e-005) (-3.67712 96 2.47955e-005)"
+			"plane" "(-512 8 246.306) (-98.9866 8 -32) (-98.9866 96 -32)"
 			"material" "CONCRETE/CEILING03"
-			"uaxis" "[0.899171 0 -0.437596 26.6154] 0.25"
+			"uaxis" "[0.829292 0 -0.558814 26.6154] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -6325,10 +6319,10 @@ world
 		side
 		{
 			"id" "1568"
-			"plane" "(-3.67712 96 2.47955e-005) (-3.67712 8 2.47955e-005) (-4.57764e-005 8 8.61644)"
+			"plane" "(-98.9873 96 -32) (-98.9873 8 -32) (-96 8 -22.3101)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[-0.392506 0 -0.919749 -39.3826] 0.25"
+			"vaxis" "[-0.294538 0 -0.955639 -39.3826] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -6336,7 +6330,7 @@ world
 		side
 		{
 			"id" "1567"
-			"plane" "(-3.67712 8 2.47955e-005) (-512 8 247.384) (-508.323 8 256)"
+			"plane" "(-98.9897 8 -32) (-512 8 246.309) (-509.013 8 256)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0.909961 0 -0.414693 -37.3846] 0.25"
 			"vaxis" "[-0.414693 0 -0.909961 -39.3826] 0.25"
@@ -6347,7 +6341,7 @@ world
 		side
 		{
 			"id" "1566"
-			"plane" "(-512 96 247.384) (-3.67712 96 2.47955e-005) (-4.57764e-005 96 8.61644)"
+			"plane" "(-512 96 246.308) (-98.9866 96 -32) (-96 96 -22.3035)"
 			"material" "CONCRETE/BLEND_BLACKTOP_COBB_01"
 			"uaxis" "[0.909961 0 -0.414693 58.6154] 0.25"
 			"vaxis" "[-0.414693 0 -0.909961 -487.383] 0.25"
@@ -6358,10 +6352,10 @@ world
 		side
 		{
 			"id" "1565"
-			"plane" "(-512 8 247.384) (-512 96 247.384) (-508.323 96 256)"
+			"plane" "(-512 8 246.306) (-512 96 246.306) (-509.013 96 256)"
 			"material" "CONCRETE/BLEND_BLACKTOP_COBB_01"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[-0.392506 0 -0.919749 -487.383] 0.25"
+			"vaxis" "[-0.294538 0 -0.955639 -487.383] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7158,18 +7152,24 @@ entity
 }
 entity
 {
-	"id" "1547"
-	"classname" "ENV_SUN"
-	"angles" "0 0 0"
-	"Order" "1"
-	"origin" "-1055.68 2436 16"
+	"id" "1705"
+	"classname" "light_environment"
+	"_ambient" "107 131 165 10"
+	"_ambientHDR" "107 131 165 35"
+	"_AmbientScaleHDR" "0.7"
+	"_light" "225 187 174 40"
+	"_lightHDR" "225 187 174 40"
+	"_lightscaleHDR" "0.7"
+	"angles" "0 220 0"
+	"pitch" "-8"
+	"SunSpreadAngle" "0"
+	"origin" "-1160.83 2544 1"
 	editor
 	{
-		"color" "255 100 100"
-		"visgroupid" "10"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[1000 14500]"
+		"logicalpos" "[0 14000]"
 	}
 }
 cameras
