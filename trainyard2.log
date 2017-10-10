@@ -3964,3 +3964,134 @@ Level flags = 0
 Total triangle count: 7322
 Writing c:\users\patrick\dev\source_l4d_trainyard2\trainyard2.bsp
 10 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\left 4 dead 2\left4dead2\materials
+Loading C:\Users\Patrick\dev\source_l4d_trainyard2\trainyard2.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Patrick\dev\source_l4d_trainyard2\trainyard2.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (177421 bytes)
+Cannot build Physics2 data
+                                                             -----------
+DataLinker total stream size                                     0.0 KiB
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 243 texinfos to 170
+Reduced 13 texdatas to 12 (350 bytes to 296)
+Writing C:\Users\Patrick\dev\source_l4d_trainyard2\trainyard2.bsp
+1 second elapsed
+
+
+
+8 threads
+reading c:\users\patrick\dev\source_l4d_trainyard2\trainyard2.bsp
+max farz in all env_fog_controller entities: -1.000000 (used for radial vis)
+reading c:\users\patrick\dev\source_l4d_trainyard2\trainyard2.prt
+ 610 portalclusters
+1656 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 476 visible clusters (0.00%)
+Total clusters visible: 206686
+Average clusters visible: 338
+Building PAS...
+Average clusters audible: 610
+visdatasize:88617  compressed from 97600
+writing c:\users\patrick\dev\source_l4d_trainyard2\trainyard2.bsp
+1 minute, 10 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading c:\users\patrick\dev\source_l4d_trainyard2\trainyard2.bsp
+2519 faces
+802187 square feet [115515048.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2519 patches before subdivision
+47953 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6196509, max 861
+transfer lists:  47.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(28573, 15355, 9193)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2803, 1137, 489)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(297, 105, 38)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(35, 10, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0156 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                512/8192         6144/98304    ( 6.3%) 
+brushsides            3427/65536       27416/524288   ( 5.2%) 
+planes                 740/65536       14800/1310720  ( 1.1%) 
+vertexes              3608/65536       43296/786432   ( 5.5%) 
+nodes                 1310/65536       41920/2097152  ( 2.0%) 
+texinfos               170/12288       12240/884736   ( 1.4%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2519/65536      141064/3670016  ( 3.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1240/65536       69440/3670016  ( 1.9%) 
+leaves                1312/65536       41984/2097152  ( 2.0%) 
+leaffaces             2990/65536        5980/131072   ( 4.6%) 
+leafbrushes           1445/65536        2890/131072   ( 2.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            17142/512000      68568/2048000  ( 3.3%) 
+edges                10176/256000      40704/1024000  ( 4.0%) 
+LDR worldlights          3/8192          300/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            345/32768        3450/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5355/65536       10710/131072   ( 8.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     2624372/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       88617/16777216 ( 0.5%) 
+entdata               [variable]        1696/393216   ( 0.4%) 
+LDR ambient table     1312/65536        5248/262144   ( 2.0%) 
+HDR ambient table     1312/65536        5248/262144   ( 2.0%) 
+LDR leaf ambient      3254/65536       91112/1835008  ( 5.0%) 
+HDR leaf ambient      1312/65536       36736/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+Prop Hull Verts          0/0               0/0        ( 0.0%) 
+Prop Hull Blob           0/0               0/0        ( 0.0%) 
+Prop Hull Lists          0/0               0/0        ( 0.0%) 
+Prop Hulls               0/0               0/0        ( 0.0%) 
+Prop Hull trilist        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/456      ( 0.2%) 
+pakfile               [variable]      173759/0        ( 0.0%) 
+physics               [variable]      177421/4194304  ( 4.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 7148
+Writing c:\users\patrick\dev\source_l4d_trainyard2\trainyard2.bsp
+10 seconds elapsed
